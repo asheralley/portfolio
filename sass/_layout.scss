@@ -1,0 +1,71 @@
+body{
+	background: $background-color;
+	color: $text-color;
+	font-family: $mainfont;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	position: relative;
+	width: 100%;
+	height:100%;
+	overflow: hidden;
+}
+
+.left-corner {
+	// background: url(../img-assets/angles/leftangle.svg) no-repeat;
+	background: url(../img-assets/angles/leftangle-small.svg) no-repeat;
+	height: 100vh;
+	width: 377px;
+	position: absolute;
+	left: 0;
+	display: inline;
+}
+
+.right-corner {
+	background: url(../img-assets/angles/right-angle.svg) no-repeat;
+	background-position: 100% 100%;
+	position: absolute;
+	right: 0;
+	z-index: 5;
+	display: inline;
+	height: 100vh;
+	width: 500px;
+}
+
+.bg-angles {
+	z-index: -9999;
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bg {
+	background: rgba(41,41,43,50);
+	height: 3500px;
+	width: 450px;
+	position: absolute;	
+}
+
+.bg-right {
+	-ms-transform: rotate(27.81deg); /* IE 9 */
+    -webkit-transform: rotate(27.81deg); /* Safari */
+    transform: rotate(27.81deg);
+    transform-origin: top left;
+	top: 550px;
+	right: -450px;
+	
+}
+
+.bg-left {
+	-ms-transform: rotate(-27.81deg); /* IE 9 */
+    -webkit-transform: rotate(-27.81deg); /* Safari */
+    transform: rotate(-27.81deg);
+    transform-origin: top right;
+    top: 1000px;
+    left: -450px;
+}
+
+
