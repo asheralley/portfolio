@@ -15,7 +15,7 @@
 			<div class="bg bg-right"></div>
 			<div class="bg bg-left"></div>
 		</div>
-		<div class="home">
+		<div class="home" id="home">
 			<div class="left-corner">
 				
 			</div>
@@ -53,34 +53,42 @@
 					</ul>
 				</nav>
 
-				<svg id="scroll-a" preserveAspectRatio="xMidYMid" width="35" height="32" viewBox="0 0 55 52">
-				  <defs>
-				   
-				  </defs>
-				  <path d="M44.624,-0.000 C44.624,-0.000 55.000,-0.000 55.000,-0.000 C55.000,-0.000 27.454,52.000 27.454,52.000 C27.454,52.000 0.000,0.092 0.000,0.092 C0.000,0.092 10.376,0.092 10.376,0.092 C10.376,0.092 27.454,32.374 27.454,32.374 C27.454,32.374 44.624,-0.000 44.624,-0.000 ZM55.000,-0.000 C55.000,-0.000 27.454,52.000 27.454,52.000 " id="path-1" class="cls-2" fill-rule="evenodd"/>
-				</svg>
-				
+				<div class="scroll-arrow" id="arrow">
+					<a href="#" class="arrow-link"><svg id="scroll-a" preserveAspectRatio="xMidYMid" width="35" height="32" viewBox="0 0 55 52">
+					  <defs>
+					   
+					  </defs>
+					  <path d="M44.624,-0.000 C44.624,-0.000 55.000,-0.000 55.000,-0.000 C55.000,-0.000 27.454,52.000 27.454,52.000 C27.454,52.000 0.000,0.092 0.000,0.092 C0.000,0.092 10.376,0.092 10.376,0.092 C10.376,0.092 27.454,32.374 27.454,32.374 C27.454,32.374 44.624,-0.000 44.624,-0.000 ZM55.000,-0.000 C55.000,-0.000 27.454,52.000 27.454,52.000 " id="path-1" class="cls-2" fill-rule="evenodd"/>
+					</svg></a>
+				</div>
 			</div>
 		</div> <!-- end of home -->
+
+
+		<!-- Start of Work
+		***************************************************** -->
 		
 		<div class="work">
-			<div class="example ex-right">
-				<div class="content">
+			<div class="example">
+				<div class="content-left">
 					<h3>Operation: Driftnet</h3>
 					<p>Operation: Driftnet is a website for a non-profit organization, and was intended to teach CTA implimentation in a website.</p>
 					<p>Yoobee Bootcamp Assignment</p>
 					<p>HTML5 CSS3</p>
 					<a href="#">Link to site</a>
 				</div>
-
-				<img src="img/ngo-org-660.jpg" alt="ngo-org website grab">
+				<div  class="img-right">
+					<img src="img/ngo-org-660.jpg" alt="ngo-org website grab">
+				</div>
 			</div>
 
-			<hr>
+			
 
-			<div class="example ex-left">
-				<img src="img/movie-660.jpg" alt="movie website grab">
-				<div class="content">
+			<div class="example">
+				<div class="img-left">
+					<img src="img/movie-660.jpg" alt="movie website grab">
+				</div>
+				<div class="content-right">
 					<h3>Interstellar: Movie Site</h3>
 					<p>This is a website that is a re-imagining of an existing site for a movie. In this instance the movie Interstellar.</p>
 					<p>Yoobee Bootcamp Assignment.</p>
@@ -89,26 +97,31 @@
 				</div>
 			</div>
 
-			<hr>
+			
 
-			<div class="example ex-right">
-				<div class="content">
+			<div class="example">
+				<div class="content-left">
 					<h3>Adidas: Brand Guidelines</h3>
 					<p>A website for depicting three guidelines of an existing brand, with established brand guidelines</p>
 					<p>Yoobee Bootcamp Assignment.</p>
 					<p>HTML5 CSS3</p>
 					<a href="#">Link to site</a>
 				</div>
-
-				<img src="img/brand-guidelines-660.jpg" alt="brand guidelines website grab">
+				
+				<div class="img-right">
+					<img src="img/brand-guidelines-660.jpg" alt="brand guidelines website grab">
+				</div>
 			</div>
 
-			<hr>
+			
 
-			<div class="example ex-left">
-
-				<img src="img/wp-commerce-660.jpg" alt="wordpress e-commerce website grab">
-				<div class="content">
+			<div class="example">
+				
+				<div class="img-left">
+					<img src="img/wp-commerce-660.jpg" alt="wordpress e-commerce website grab">
+				</div>
+				
+				<div class="content-right">
 					<h3>Wordpress E-commerce Site, The IronMonger</h3>
 					<p></p>
 					<p>Yoobee Bootcamp Assignment</p>
@@ -117,14 +130,13 @@
 				</div>
 			</div>
 
-			<hr>
+			
 		</div> <!-- end of work -->
 		<div class="about">
 			
-			
 		</div> <!-- end of about -->
 	</div> <!-- end of wrapper -->
+
 	<script src="js/main.js"></script>
-	<script src="picturefill.min.js"></script>
 </body>
 </html>
