@@ -114,8 +114,6 @@ nav {
 			font-size: 16pt;
 		}
 	}
-
-
 }
 
 a:hover {
@@ -128,6 +126,10 @@ a:hover {
 	color: $text-color;
 }
 
+.arrow-link:hover {
+	fill: $highlight;
+}
+
 .scroll-arrow {
 	fill: $text-color;
 	margin: 0 auto;
@@ -138,6 +140,8 @@ a:hover {
 #scroll-a {
 	fill: $text-color;
 }
+
+
 
 
 

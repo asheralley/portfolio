@@ -15,7 +15,7 @@
 			<div class="bg bg-right"></div>
 			<div class="bg bg-left"></div>
 		</div>
-		<div class="home" id="home">
+		<section class="home" id="home">
 			<div class="left-corner">
 				
 			</div>
@@ -47,39 +47,44 @@
 
 				<nav>
 					<ul>
-						<li><a href="#">Work</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">About</a></li>
+						<li><a href="#work">Work</a></li>
+						<li><a href="#about">Contact</a></li>
+						<li><a href="#about">About</a></li>
 					</ul>
 				</nav>
 
 				<div class="scroll-arrow" id="arrow">
+					<div id="front"></div>
 					<a href="#" class="arrow-link"><svg id="scroll-a" preserveAspectRatio="xMidYMid" width="35" height="32" viewBox="0 0 55 52">
 					  <defs>
 					   
 					  </defs>
 					  <path d="M44.624,-0.000 C44.624,-0.000 55.000,-0.000 55.000,-0.000 C55.000,-0.000 27.454,52.000 27.454,52.000 C27.454,52.000 0.000,0.092 0.000,0.092 C0.000,0.092 10.376,0.092 10.376,0.092 C10.376,0.092 27.454,32.374 27.454,32.374 C27.454,32.374 44.624,-0.000 44.624,-0.000 ZM55.000,-0.000 C55.000,-0.000 27.454,52.000 27.454,52.000 " id="path-1" class="cls-2" fill-rule="evenodd"/>
 					</svg></a>
+					<div id="after"></div>
 				</div>
 			</div>
-		</div> <!-- end of home -->
+		</section> <!-- end of home -->
 
 
 		<!-- Start of Work
 		***************************************************** -->
 		
-		<div class="work">
+		<section id="work" class="work">
 			<div class="example">
 				<div class="content-left">
 					<h3>Operation: Driftnet</h3>
 					<p>Operation: Driftnet is a website for a non-profit organization, and was intended to teach CTA implimentation in a website.</p>
 					<p>Yoobee Bootcamp Assignment</p>
 					<p>HTML5 CSS3</p>
-					<a href="#">Link to site</a>
-				</div>
-				<div  class="img-right">
+					<div class="link-div">
+						<a href="#" class="linkts">Link to site</a>
+					</div>
+				</div>			
+				<div class="img-right">
 					<img src="img/ngo-org-660.jpg" alt="ngo-org website grab">
 				</div>
+				
 			</div>
 
 			
@@ -90,10 +95,10 @@
 				</div>
 				<div class="content-right">
 					<h3>Interstellar: Movie Site</h3>
-					<p>This is a website that is a re-imagining of an existing site for a movie. In this instance the movie Interstellar.</p>
+					<p>This is a website that is a re-imagining of an existing site for a movie.</p>
 					<p>Yoobee Bootcamp Assignment.</p>
 					<p>HTML5 CSS3</p>
-					<a href="#">Link to site</a>
+					<a href="#" class="linkts">Link to site</a>
 				</div>
 			</div>
 
@@ -102,10 +107,10 @@
 			<div class="example">
 				<div class="content-left">
 					<h3>Adidas: Brand Guidelines</h3>
-					<p>A website for depicting three guidelines of an existing brand, with established brand guidelines</p>
+					<p>A website for depicting three guidelines of an existing brand, with established brand guidelines.</p>
 					<p>Yoobee Bootcamp Assignment.</p>
 					<p>HTML5 CSS3</p>
-					<a href="#">Link to site</a>
+					<a href="#" class="linkts">Link to site</a>
 				</div>
 				
 				<div class="img-right">
@@ -126,15 +131,18 @@
 					<p></p>
 					<p>Yoobee Bootcamp Assignment</p>
 					<p>HTML5 CSS3</p>
-					<a href="#">Link to site</a>
+					<a href="#" class="linkts">Link to site</a>
 				</div>
 			</div>
 
 			
-		</div> <!-- end of work -->
-		<div class="about">
-			
-		</div> <!-- end of about -->
+		</section> <!-- end of work -->
+		<section id="about" class="about">
+			<div class="about-content">
+			<h3>About Me</h3>
+				<p>I am a front-end web developer form Auckland.</p>
+			</div>
+		</section> <!-- end of about -->
 	</div> <!-- end of wrapper -->
 
 	<script src="js/main.js"></script>

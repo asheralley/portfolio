@@ -10,7 +10,6 @@ body{
 	position: relative;
 	width: 100%;
 	height:100%;
-	overflow: hidden;
 }
 
 .left-corner {
@@ -63,7 +62,7 @@ body{
     transform-origin: top left;
 	top: 550px;
 	right: -450px;
-	
+	height: 5500px;
 }
 
 .bg-left {
@@ -78,13 +77,21 @@ body{
 .sticky {
 	position: fixed;
 	top: 0;
+	background: $bg-opac;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	fill: $text-color;
-	margin-top: 2.5em;
+	margin: 0;
+	padding: 1em 0;
 	cursor: auto;
 	transition: all ease-in-out .5s;
+}
+
+@media screen and (min-width: 600px) {
+	.sticky {
+		background: transparent;
+	}
 }
 
 .pointer {

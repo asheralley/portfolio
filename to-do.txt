@@ -1,0 +1,5 @@
+- make img links as well?
+- about section
+- contact form
+- CV link?
+- clean up javascript!!!

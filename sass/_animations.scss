@@ -20,3 +20,15 @@
     -webkit-transform: rotateX(180deg); /* Safari */
     transform: rotateX(180deg);
 }
+
+#front {
+	-webkit-transform: rotateX(180deg); /* Safari */
+	transform: rotateX(180deg);
+	transform-origin: 35% 35%;
+}
+
+#after {
+	-webkit-transform: rotateX(180deg); /* Safari */
+	transform: rotateX(180deg);
+	transform-origin: 35% 35%;
+}
