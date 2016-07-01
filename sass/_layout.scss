@@ -7,9 +7,9 @@ body{
 }
 
 .wrapper {
-	position: relative;
 	width: 100%;
 	height:100%;
+	position: relative;
 }
 
 .left-corner {
@@ -42,37 +42,13 @@ body{
 
 .bg-angles {
 	z-index: -9999;
-	position: relative;
+	position: absolute;
+	background: url(../img/bg-cross.svg) no-repeat;
+	background-position: 50% 0;
 	width: 100%;
-	display: flex;
-	justify-content: space-between;
+	height: 100%;
 }
 
-.bg {
-	background: rgba(41,41,43,0.8);
-	height: 3500px;
-	width: 450px;
-	position: absolute;	
-}
-
-.bg-right {
-	-ms-transform: rotate(27.81deg); /* IE 9 */
-    -webkit-transform: rotate(27.81deg); /* Safari */
-    transform: rotate(27.81deg);
-    transform-origin: top left;
-	top: 550px;
-	right: -450px;
-	height: 5500px;
-}
-
-.bg-left {
-	-ms-transform: rotate(-27.81deg); /* IE 9 */
-    -webkit-transform: rotate(-27.81deg); /* Safari */
-    transform: rotate(-27.81deg);
-    transform-origin: top right;
-    top: 1000px;
-    left: -450px;
-}
 
 .sticky {
 	position: fixed;

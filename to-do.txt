@@ -3,3 +3,31 @@
 - contact form
 - CV link?
 - clean up javascript!!!
+
+
+Alt background solution.
+// .bg {
+// 	background: rgba(41,41,43,0.8);
+// 	height: 3500px;
+// 	width: 450px;
+// 	position: absolute;	
+// }
+
+// .bg-right {
+// 	-ms-transform: rotate(27.81deg); /* IE 9 */
+//     -webkit-transform: rotate(27.81deg); /* Safari */
+//     transform: rotate(27.81deg);
+//     transform-origin: top left;
+// 	top: 550px;
+// 	right: -450px;
+// 	height: 5500px;
+// }
+
+// .bg-left {
+// 	-ms-transform: rotate(-27.81deg); /* IE 9 */
+//     -webkit-transform: rotate(-27.81deg); /* Safari */
+//     transform: rotate(-27.81deg);
+//     transform-origin: top right;
+//     top: 1000px;
+//     left: -450px;
+// }
