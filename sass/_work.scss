@@ -37,6 +37,7 @@ h3 {
 	width: 100%;
 	order: 1;
 	font-size: 1.1em;
+	text-align: right;
 }
 
 .img-left {
@@ -64,7 +65,7 @@ h3 {
 }
 
 .linkts:hover {
-	color: $highlight;
+	color: $bluehl;
 }
 
 @media screen and (min-width: 600px) {
@@ -84,6 +85,10 @@ h3 {
 	.content-left,
 	.content-right {
 		width: 45%;
+	}
+
+	.content-left h3 {
+		text-align: right;
 	}
 
 	.link-div {
