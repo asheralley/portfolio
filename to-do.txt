@@ -4,13 +4,15 @@
 - CV link?
 - clean up javascript!!!
 - reversing A isn't working that great on all screens
-- change highling color to CV color blue 
+- change highling color to CV color blue - too dark - abandon this idea
 - need to align text to images in about section
 - need to make a gentle scroll to work or about section.
 - spacing of work
 - spacing of example div in work margin top?
 - need a contact form
-- need to do my cv
+- need to do my cv -alignment of experience section.
+- need to do my CV!!! Web dev cv!
+
 
 
 Alt background solution.
