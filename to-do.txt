@@ -4,12 +4,14 @@
 - CV link?
 - clean up javascript!!!
 - reversing A isn't working that great on all screens
-- change highling color to CV color blue 
 - need to align text to images in about section
 - need to make a gentle scroll to work or about section.
 - spacing of work
 - spacing of example div in work margin top?
 - need a contact form
+- need to get rid of the animation on the down arrow.
+- scroll effect
+- icons for different technologies
 - need to do my cv
 
 
