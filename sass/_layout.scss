@@ -1,5 +1,9 @@
 body{
-	background: $background-color;
+	  background: url(../img/background_test1.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	color: $text-color;
 	font-family: $mainfont;
 	margin: 0;
@@ -13,8 +17,7 @@ body{
 }
 
 .left-corner {
-	background: url(../img/leftangle-small.svg) no-repeat;
-	background-position: 0 0;
+	
 	height: 100vh;
 	width: 377px;
 	position: absolute;

@@ -14,7 +14,7 @@ if (screen.width >= 600) {
 
 			arrowDiv.classList.add('sticky');
 			arrowDiv.classList.remove('scroll-arrow');
-			arrowLink.setAttribute('href', '#home');
+			//arrowLink.setAttribute('href', '#');
 			arrowLink.setAttribute('onclick', 'scrollToTop();return false');
 			arrow.classList.add('pointer');
 			asher.appendChild(frontText);
