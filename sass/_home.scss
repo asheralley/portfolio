@@ -41,6 +41,7 @@
 #main-a {
 	fill: $darkbg-color;
 	width: 255px;
+	height: 286px;
 	max-width: 100%;
 }
 
@@ -64,7 +65,7 @@
 }
 
 .title h1 {
-	font-size: 2.59em;
+	font-size: 2.45em;
 	line-height: 50px;
 	font-weight: 300;
 	padding: 0;
@@ -83,19 +84,45 @@
 
 @media screen and (min-width: 600px){
 	.title h1 {
-		font-size: 48pt;
-		line-height: 81px;
+		font-size: 4.58em;
+		line-height: 88px;
 	}
 
 	.title h2 {
-		font-size: 27pt;
+		font-size: 2.2em;
 	}
+
+	#main-a{
+		width: 425px;
+	}
+
+	.grab{
+		height: 80vh;
+	}
+
+	.bg-a{
+		position: absolute;
+		width: 100%;
+		max-width: 500px;
+		top: 45%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		}
 }
 
-nav {
-	width: 80%;
+// Navigation
+//*********************************
+
+nav{
+	display: none;
+}
+
+.mobile-nav {
+	width: 90%;
 	max-width: 570px;
-	margin: 0 auto 4.5em auto;
+	margin: 0 auto 0 auto;
+	padding-top: 0;
 	font-weight: 300;
 	ul {
 		display: flex;
@@ -105,16 +132,30 @@ nav {
 	li {
 		list-style: none;
 		text-decoration: none;
-		width: 4.8em;
+		width: 2.4em;
 		text-align: center;
-		padding-top: 0.2em;
+		padding-top: 0;
 	}
 	a {
 		text-decoration: none;
 		color: $text-color;
-		text-transform: uppercase;
 		transition: all ease-in-out .1s;
+		img{
+			max-width: 100%;
+		}
 	}
+}
+
+.mobile-nav-icons{
+	width: 26px;
+}
+
+.mobile-background{
+	background: $darkbg-color;
+	border-top: 1px solid #222;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
 
 .scroll {
@@ -131,19 +172,40 @@ nav {
 
 @media screen and (min-width: 600px) {
 	nav {
-		width: 100%;
-		li {
-			
-			a{
-				font-size: 19px;
+		display: block;
+		width: 80%;
+		max-width: 570px;
+		margin: 0 auto 4.5em auto;
+		font-weight: 300;
+		ul{
+			display: flex;
+			justify-content: space-between;
+			padding: 0;
+			li {
+				list-style: none;
+				text-decoration: none;
+				width: 4.8em;
+				text-align: center;
+				padding-top: 0.2em;
+				a{
+					text-decoration: none;
+					color: $text-color;
+					text-transform: uppercase;
+					transition: all ease-in-out .1s;				
+					font-size: 19px;
+				}
 			}
 		}
+	}
+
+	.mobile-background{
+		display: none;
 	}
 }
 
 
 a:hover {
-	color: $bluehl;
+	color: $highlight;
 }
 
 .arrow-link {
@@ -157,16 +219,22 @@ a:hover {
 }
 
 .scroll-arrow {
-	fill: $text-color;
-	height: 25px;
-	margin: 0 auto;
-	transition: all ease-in-out .2s;
+	display: none;
 }
 
 #scroll-a {
 	fill: $text-color;
 }
 
+@media screen and (min-width: 600px){
+	.scroll-arrow {
+		display: block;
+		fill: $text-color;
+		height: 25px;
+		margin: 0 auto;
+		transition: all ease-in-out .2s;
+	}
+}
 
 
 
