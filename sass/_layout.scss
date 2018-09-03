@@ -1,5 +1,5 @@
 body{
-	background: $background-color;
+	background-image: linear-gradient(to bottom right, $background-color, $bluebg-color);
 	color: $text-color;
 	font-family: $mainfont;
 	margin: 0;
