@@ -1,3 +1,4 @@
+- getting on the other projects
 - make img links as well?
 - about section
 - contact form

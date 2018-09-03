@@ -1,5 +1,8 @@
 body{
-	background-image: linear-gradient(to bottom right, $background-color, $bluebg-color);
+	//background-image: linear-gradient(141deg, #a9b4c2 0%, #3b6b86 51%, #2f4155 75%);
+	background-image: linear-gradient(140deg, #1B3842 5%, #9DA083 85%);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 	color: $text-color;
 	font-family: $mainfont;
 	margin: 0;
@@ -29,6 +32,14 @@ body{
 	}
 }
 
+@media screen and (min-width:1280px){
+	.wrapper{
+		width: 80%;
+		min-width: 1280px;
+		margin: 0 auto;
+	}
+}
+
 .right-corner {
 	background: url(../img/right-angle.svg) no-repeat;
 	background-position: 100% 100%;
@@ -53,6 +64,7 @@ body{
 .sticky {
 	position: fixed;
 	top: 0;
+	left: 0;
 	background: $bg-opac;
 	width: 100%;
 	display: flex;
