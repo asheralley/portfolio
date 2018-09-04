@@ -1,4 +1,3 @@
-
 .home {
 	height: 100vh;
 	width: 100%;
@@ -130,10 +129,14 @@ a:hover {
 	fill: $highlight;
 }
 
+.arrow-link:focus {
+	outline: none;
+}
+
 .scroll-arrow {
 	fill: $text-color;
 	margin: 0 auto;
-	animation: pulser 4s infinite;
+	//animation: pulser 4s infinite;
 	transition: all ease-in-out .5s;
 }
 
