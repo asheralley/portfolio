@@ -16,22 +16,23 @@
 
 .about-content{
 	display: flex;
-	justify-content: space-evenly;
+	flex-direction: column;
 }
 
 .profile-img{
-	margin: 6.8em 0 2.2em;
+	margin: 2.2em 0 2.2em;
+	text-align: center;
 	img{
-		width: 100%;
+		width: 50%;
+		max-width: 210px;
 		height: auto;
 		margin: 0 auto;
 	}
 }
 
 .about-blurb{
-	padding-right: 1em;
-	width: 50%;
-	
+	padding: 2em;
+	width: 80%;
 }
 
 .details{
@@ -49,6 +50,8 @@
 	.email{
 		text-align: center;
 		display: block;
+		text-decoration: none;
+		color: $text-color;
 	}
 }
 
@@ -58,10 +61,88 @@
 	display: flex;
 	justify-content: space-evenly;
 	padding: 0 3.2em;
+	max-width: 210px;
+	margin: 0 auto;
 }
 
 .sprites{
 	img{
 		width: 45px;
+	}
+}
+
+@media screen and (min-width: 900px){
+	.about {
+		z-index: 10;
+		width: 100%;
+		margin: 0 auto;
+		background: #222;
+		//max-width: 1650px;
+	}
+	
+	.footer-content{
+		width: 100%;
+		margin: 0 auto;
+		h3{
+			padding-top: 2em;
+		}
+	}
+	
+	.about-content{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	
+	.profile-img{
+		margin: 9em 0 2.2em;
+		text-align: center;
+		img{
+			width: 80%;
+			height: auto;
+			margin: 0 auto;
+			max-width: none;
+		}
+	}
+	
+	.about-blurb{
+		padding: 0 1em 0 0;
+		width: 50%;
+	}
+	
+	.details{
+		h3{
+			margin-top: 0.2em;
+			margin-bottom: 0;
+			padding-top: 0;
+			text-align: center;
+		}
+		p{
+			margin:0;
+			padding: 0;
+			text-align: center;
+		}
+		.email{
+			text-align: center;
+			display: block;
+			text-decoration: none;
+			color: $text-color;
+		}
+	}
+	
+	.link-sprites{
+		text-decoration: none;
+		list-style: none;
+		display: flex;
+		justify-content: space-evenly;
+		padding: 0 2em;
+		max-width: none;
+		margin-top: 1.2em;
+	}
+	
+	.sprites{
+		img{
+			width: 45px;
+		}
 	}
 }
